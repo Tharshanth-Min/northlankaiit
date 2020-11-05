@@ -132,7 +132,7 @@ export function DeleteDialogBox (props) {
                         <Button onClick={() => props.handleDelete(props.currentSelectedItem)} color="primary" autoFocus>
                             Delete
                         </Button>
-                        <Button onClick={props.handleClose} color="secondary" >
+                        <Button onClick={props.handleClose} color="primary" >
                             Cancel
                         </Button>
                     </DialogActions>)}

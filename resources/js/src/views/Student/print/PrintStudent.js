@@ -60,7 +60,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Full Name :</lable>
                                     <TextField
-                                        id="fullName"
+                                        id="fullName2"
                                         name="fullName"
                                         margin="normal"
                                         required
@@ -74,7 +74,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>CourseName :</lable>
                                     <TextField
-                                        id="courseName"
+                                        id="courseName2"
                                         name="courseName"
                                         margin="normal"
                                         required
@@ -91,7 +91,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Date of Birth :</lable>
                                     <TextField
-                                        id="date_of_birth"
+                                        id="date_of_birth2"
                                         margin="normal"
                                         required
                                         fullWidth
@@ -106,7 +106,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Gender : </lable>
                                     <TextField
-                                        id="gender"
+                                        id="gender2"
                                         margin="normal"
                                         required
                                         fullWidth
@@ -121,7 +121,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Nationality :</lable>
                                     <TextField
-                                        id="nationality"
+                                        id="nationality2"
                                         margin="normal"
                                         required
                                         fullWidth
@@ -138,7 +138,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Personal Mobile No : </lable>
                                     <TextField
-                                        id="personalNo"
+                                        id="personalNo2"
                                         margin="normal"
                                         required
                                         fullWidth
@@ -153,7 +153,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Home Mobile No :</lable>
                                     <TextField
-                                        id="homeNo"
+                                        id="homeNo2"
                                         margin="normal"
                                         fullWidth
                                         placeholder="Home Mobile (optional)"
@@ -167,7 +167,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Office Mobile No :</lable>
                                     <TextField
-                                        id="officeNo"
+                                        id="officeNo2"
                                         margin="normal"
                                         fullWidth
                                         placeholder="Office Mobile (optional)"
@@ -181,7 +181,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Nic / Passport No :</lable>
                                     <TextField
-                                        id="nic_passport_no"
+                                        id="nic_passport_no2"
                                         margin="normal"
                                         required
                                         fullWidth
@@ -198,7 +198,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Name on Certification :</lable>
                                     <TextField
-                                        id="certificationName"
+                                        id="certificationName2"
                                         margin="normal"
                                         required
                                         fullWidth
@@ -213,7 +213,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Email Address :</lable>
                                     <TextField
-                                        id="emailAddress"
+                                        id="emailAddress2"
                                         margin="normal"
                                         required
                                         fullWidth
@@ -593,7 +593,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Work Experience :</lable>
                                     <TextField
-                                        id="workExperience"
+                                        id="workExperience2"
                                         margin="normal"
                                         multiline
                                         fullWidth
@@ -607,7 +607,7 @@ class PrintStudent extends Component {
                                 <div style={{ marginTop: "10px" }}>
                                     <lable>Other Qualification :</lable>
                                     <TextField
-                                        id="otherQua"
+                                        id="otherQua2"
                                         margin="normal"
                                         multiline
                                         fullWidth

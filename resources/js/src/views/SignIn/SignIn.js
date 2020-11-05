@@ -25,6 +25,7 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import FormControl from '@material-ui/core/FormControl';
 import Visibility from '@material-ui/icons/Visibility';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
+import logo from "../../assets/img/reactlogo.png";
 
 
 
@@ -32,11 +33,11 @@ function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
             {'Copyright © '}
-            <Link color="inherit" href="http://titum.lk">
-                Titum Pvt Ltd
+            <Link color="inherit" href="https://www.northlankaiit.com">
+                North Lanka IIT
             </Link>{' '}
             {new Date().getFullYear()}
-            {'.'} <p>info@titum.lk | +94 77 209 7766 </p>
+            {'.'} <p>northlankaiit@yahoo.com | +94 21 492 7088  </p>
         </Typography>
     );
 }
@@ -74,7 +75,16 @@ const useStyles = makeStyles((theme) => ({
     margin: {
         marginTop: theme.spacing(2),
     },
-
+    logoImage: {
+        width: "70px",
+        display: "inline-block",
+        maxHeight: "70px",
+    },
+    img: {
+        width: "70px",
+        verticalAlign: "middle",
+        border: "0"
+    },
 }));
 
 function SignIn(props) {
@@ -153,9 +163,10 @@ function SignIn(props) {
         <Container component="main" maxWidth="xs">
             <CssBaseline />
             <div className={classes.paper}>
-                <Avatar className={classes.avatar}>
-                    <LockOutlinedIcon />
-                </Avatar>
+
+                    <div className={classes.logoImage}>
+                        <img src={logo} alt="logo" className={classes.img} />
+                    </div>
                 <Typography component="h1" variant="h5">
                     North Lanka IIT
                 </Typography>
