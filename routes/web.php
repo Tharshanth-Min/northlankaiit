@@ -22,10 +22,13 @@ use App\Http\Controllers\HomeController;
 |
 */
 
+// DASHBOARD IN REACT
 
-//Route::get('/rector-message', function () {
-//    return view('abouts.lecturers-panel');
-//});
+
+Route::view('/dashboard/{any}', 'dashboard')->where('any', '.*');
+
+
+
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/rector-message', [AboutController::class, 'rectorMessage']);
 Route::get('/lecturers-message', [AboutController::class, 'lecturersMessage']);

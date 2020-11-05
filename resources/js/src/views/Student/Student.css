@@ -1,0 +1,10 @@
+.cardTitleWhite {
+    color: #FFFFFF;
+    margin-top: 0;
+    min-height: auto;
+    font-weight: 400;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    margin-bottom: 3px;
+    text-decoration: none;
+    font-size : 18px;
+}
